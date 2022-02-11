@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+section{
+    display: flex;
+    padding: 20px;
+}
+.cabecalho{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(240, 85, 10);
+    font-size: 24px;
+    justify-content: space-between;
+
+}
+.cabecalho a{
+    transition: 0.9s;
+    padding: 0px 50px; /*Vertical Horizontal*/
+    color: #fff;
+    text-decoration: none;
+}
+.cabecalho a:hover{
+    background-color: #fff;
+    color: rgb(110, 0, 0);
+    padding: 50px 50px;
+}
+#barra-pesquisa input{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px ;
+    border: none;
+}
+#barra-pesquisa input:focus{
+    outline: none;
+}
+
+.col{
+    margin: 10px;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+.center-text{
+    text-align: center;
+    padding: 80px 40px;
+}
+.center-text p{
+    font-size: 20px;
+}
+.center-text h1{
+    font-size: 36px;
+    margin: 20px;
+}
+.button-inicio{
+    padding: 20px 150px;
+    display: flex;
+    justify-content: center;
+}
+.button-inicio input{
+    margin: 0px 30px;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+#cadastre{
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+#saiba-mais{
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+#cadastre:hover{
+    background-color: rgb(240, 85, 10);
+}
+#saiba-mais:hover{
+    background-color: rgb(240, 85, 10);
+}
+#sobre-nos{
+    margin: 20px 0px;
+    background-color: rgb(240, 85, 10);
+    color: #fff;
+}
+#sobre-nos h1{
+    font-size: 30px;
+}
+#equipe h1{
+    font-size: 30px;
+    margin: 20px;
+}
+.card-equipe{
+    background-color: rgb(240, 85, 10);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    color: #fff;
+}
+.card-equipe img{
+    width: 200px;
+    align-content: center;
+}
+.card-equipe p{
+    font-size: 20px;
+    color:#fff;
+    text-align: center;
+}
+#contatos{
+    background-color: rgb(240, 85, 10);
+    color: #fff;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
