@@ -12,7 +12,6 @@ section{
     background-color: rgb(240, 85, 10);
     font-size: 24px;
     justify-content: space-between;
-
 }
 .cabecalho a{
     transition: 0.9s;
@@ -34,7 +33,6 @@ section{
 #barra-pesquisa input:focus{
     outline: none;
 }
-
 .col{
     margin: 10px;
     justify-content: space-around;
@@ -75,13 +73,15 @@ section{
     outline: none;
     border: none;
     border-radius: 15px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 #cadastre:hover{
     background-color: rgb(240, 85, 10);
+    color: #fff;
 }
 #saiba-mais:hover{
     background-color: rgb(240, 85, 10);
+    color: #fff;
 }
 #sobre-nos{
     margin: 20px 0px;
@@ -91,17 +91,21 @@ section{
 #sobre-nos h1{
     font-size: 30px;
 }
+#equipe{
+    display: flex;
+    padding: 40px;
+}
 #equipe h1{
     font-size: 30px;
-    margin: 20px;
+    margin: 10px;
 }
 .card-equipe{
     background-color: rgb(240, 85, 10);
     margin: 20px;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 0px 0px 20px 20px;
     width: 200px;
-    color: #fff;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.5);
 }
 .card-equipe img{
     width: 200px;
@@ -109,15 +113,19 @@ section{
 }
 .card-equipe p{
     font-size: 20px;
-    color:#fff;
+    color: rgb(255, 255, 255);
     text-align: center;
+}
+.decoration{
+    border-top: 5px solid rgb(240, 85, 10);
+    border-bottom: 5px solid rgb(0, 0, 0);
 }
 #contatos{
     background-color: rgb(240, 85, 10);
     color: #fff;
 }
 footer{
-    background-color: black;
+    background-color: #000;
     color: #fff;
     justify-content: center;
     text-align: center;
